@@ -1,0 +1,23 @@
+{
+    "input_ports": [
+        {
+            "is_list": true,
+            "portName": "input",
+            "portType": "Pose"
+        }
+    ],
+    "output_ports": [
+        {
+            "is_list": true,
+            "portName": "output",
+            "portType": "Pose"
+        }
+    ],
+    "parameters": [
+        {
+            "default_val": false,
+            "paraName": "all_flag",
+            "paraType": "Bool"
+        }
+    ]
+}

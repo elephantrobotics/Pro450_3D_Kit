@@ -1,0 +1,18 @@
+{
+    "input_ports": [],
+    "output_ports": [],
+    "parameters": [
+        {
+            "default_val": "",
+            "paraName": "directory_name",
+            "paraType": "Directory"
+        },
+        {
+            "default_val": "20",
+            "max": "1000",
+            "min": "MIN",
+            "paraName": "limit_files_num",
+            "paraType": "Int"
+        }
+    ]
+}

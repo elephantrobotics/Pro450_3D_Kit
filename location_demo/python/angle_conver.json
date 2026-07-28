@@ -1,0 +1,53 @@
+{
+    "input_ports": [
+        {
+            "is_list": true,
+            "portName": "input",
+            "portType": "Pose"
+        }
+    ],
+    "output_ports": [
+        {
+            "is_list": true,
+            "portName": "out_put",
+            "portType": "Pose"
+        }
+    ],
+    "parameters": [
+        {
+            "default_val": "0",
+            "max": "360",
+            "min": "0",
+            "paraName": "positive_min",
+            "paraType": "Int"
+        },
+        {
+            "default_val": "0",
+            "max": "360",
+            "min": "0",
+            "paraName": "positive_max",
+            "paraType": "Int"
+        },
+        {
+            "default_val": "0",
+            "max": "0",
+            "min": "-180",
+            "paraName": "negative_min",
+            "paraType": "Int"
+        },
+        {
+            "default_val": "0",
+            "max": "0",
+            "min": "-180",
+            "paraName": "negative_max",
+            "paraType": "Int"
+        },
+        {
+            "default_val": "5",
+            "max": "5",
+            "min": "0",
+            "paraName": "index",
+            "paraType": "Int"
+        }
+    ]
+}

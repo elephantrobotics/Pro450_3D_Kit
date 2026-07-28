@@ -1,0 +1,39 @@
+{
+    "input_ports": [
+        {
+            "is_list": true,
+            "portName": "input",
+            "portType": "RotatedRect"
+        }
+    ],
+    "output_ports": [
+        {
+            "is_list": true,
+            "portName": "output_indexs",
+            "portType": "String"
+        }
+    ],
+    "parameters": [
+        {
+            "default_val": "0.000000",
+            "max": "MAX",
+            "min": "MIN",
+            "paraName": "w",
+            "paraType": "Float"
+        },
+        {
+            "default_val": "0.000000",
+            "max": "MAX",
+            "min": "MIN",
+            "paraName": "h",
+            "paraType": "Float"
+        },
+        {
+            "default_val": "0.000000",
+            "max": "1",
+            "min": "0.01",
+            "paraName": "rote",
+            "paraType": "Float"
+        }
+    ]
+}

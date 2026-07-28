@@ -1,0 +1,35 @@
+{
+    "input_ports": [
+        {
+            "is_list": false,
+            "portName": "input",
+            "portType": "Pose"
+        }
+    ],
+    "output_ports": [
+        {
+            "is_list": false,
+            "portName": "output",
+            "portType": "Pose"
+        },
+        {
+            "is_list": false,
+            "portName": "mode",
+            "portType": "String"
+        },
+        {
+            "is_list": false,
+            "portName": "value",
+            "portType": "String"
+        }
+    ],
+    "parameters": [
+        {
+            "default_val": "0",
+            "max": "MAX",
+            "min": "MIN",
+            "paraName": "positive",
+            "paraType": "Int"
+        }
+    ]
+}

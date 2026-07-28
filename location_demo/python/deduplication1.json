@@ -1,0 +1,27 @@
+{
+    "input_ports": [
+        {
+            "is_list": true,
+            "portName": "input_cube",
+            "portType": "Cube"
+        },
+        {
+            "is_list": true,
+            "portName": "input_pose",
+            "portType": "Pose"
+        }
+    ],
+    "output_ports": [
+        {
+            "is_list": true,
+            "portName": "output_cube",
+            "portType": "Cube"
+        },
+        {
+            "is_list": true,
+            "portName": "output_pose",
+            "portType": "Pose"
+        }
+    ],
+    "parameters": []
+}

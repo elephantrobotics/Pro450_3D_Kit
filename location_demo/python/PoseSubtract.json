@@ -1,0 +1,68 @@
+{
+    "input_ports": [
+        {
+            "is_list": false,
+            "portName": "input_pose1",
+            "portType": "Pose"
+        },
+        {
+            "is_list": false,
+            "portName": "input_pose2",
+            "portType": "Pose"
+        },
+        {
+            "is_list": false,
+            "portName": "angle_rx",
+            "portType": "String"
+        }
+    ],
+    "output_ports": [
+        {
+            "is_list": false,
+            "portName": "output",
+            "portType": "String"
+        },
+        {
+            "is_list": false,
+            "portName": "ouput_rx",
+            "portType": "String"
+        }
+    ],
+    "parameters": [
+        {
+            "default_val": "0.000000",
+            "max": "MAX",
+            "min": "MIN",
+            "paraName": "max_x",
+            "paraType": "Float"
+        },
+        {
+            "default_val": "0.000000",
+            "max": "MAX",
+            "min": "MIN",
+            "paraName": "min_x",
+            "paraType": "Float"
+        },
+        {
+            "default_val": "0.000000",
+            "max": "MAX",
+            "min": "MIN",
+            "paraName": "max_z",
+            "paraType": "Float"
+        },
+        {
+            "default_val": "0.000000",
+            "max": "MAX",
+            "min": "MIN",
+            "paraName": "min_z",
+            "paraType": "Float"
+        },
+        {
+            "default_val": "0.000000",
+            "max": "MAX",
+            "min": "MIN",
+            "paraName": "max_rx",
+            "paraType": "Float"
+        }
+    ]
+}
