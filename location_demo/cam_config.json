@@ -1,0 +1,86 @@
+{
+    "sn": "207000154484",
+    "version": "3.6.51",
+    "timestamp": "2026-07-28 14:27:58",
+    "component": [
+        {
+            "id": "0x00010000",
+            "desc": "depth",
+            "feature": [
+                {
+                    "name": "image mode",
+                    "id": "0x00003109",
+                    "value": 539492832
+                }
+            ]
+        },
+        {
+            "id": "0x00040000",
+            "desc": "leftir",
+            "feature": [
+                {
+                    "name": "LeftExpoTime",
+                    "id": "0x00001301",
+                    "value": 150
+                },
+                {
+                    "name": "gain",
+                    "id": "0x00001303",
+                    "value": 30
+                },
+                {
+                    "name": "analog gain",
+                    "id": "0x00001524",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "0x00080000",
+            "desc": "rightir",
+            "feature": [
+                {
+                    "name": "RightExpoTime",
+                    "id": "0x00001301",
+                    "value": 150
+                },
+                {
+                    "name": "gain",
+                    "id": "0x00001303",
+                    "value": 30
+                },
+                {
+                    "name": "analog gain",
+                    "id": "0x00001524",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "0x00100000",
+            "desc": "rgb",
+            "feature": [
+                {
+                    "name": "RgbImageMode",
+                    "id": "0x00003109",
+                    "value": 580913024
+                },
+                {
+                    "name": "analog gain",
+                    "id": "0x00001524",
+                    "value": 1
+                },
+                {
+                    "name": "ColorExpoTime",
+                    "id": "0x00001301",
+                    "value": 35750
+                },
+                {
+                    "name": "RgbAutoExpo",
+                    "id": "0x00004300",
+                    "value": false
+                }
+            ]
+        }
+    ]
+}
